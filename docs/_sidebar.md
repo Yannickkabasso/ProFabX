@@ -15,7 +15,7 @@
 + LASER CUTTING
   - [Assessment](class/3ardla/laser.md) 
 
-+ ARDUINO
++ ELECTRICAL
   - [Assessment](class/3ardla/arduino.md) 
 
 + PROCESSING
