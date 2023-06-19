@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "docsify-sidebar-collapse": "^1.1.7"
+  }
+}
