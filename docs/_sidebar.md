@@ -5,12 +5,12 @@
 
  + PROJECT MANAGEMENT
       
-      - [How to build web](class/1pm/1pm-web.md)
+      - [Sketches](class/1pm/1pm-web.md)
       
- + CAD DESIGN
+ + FUSION360 DESIGN
       
-      - [1.AutoCAD](class/2cad/cad.md)
-      - [2.Assessment](class/2cad/3d.md)
+      - [1.First](class/2cad/cad.md)
+      - [2.Second](class/2cad/3d.md)
      
 + LASER CUTTING
   - [Assessment](class/3ardla/laser.md) 
