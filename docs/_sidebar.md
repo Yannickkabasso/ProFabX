@@ -1,12 +1,18 @@
 <!-- 侧边栏 docs/_sidebar.md -->
 
 
-- PROFABX MANAGE
+- PROFABX
+- TABLE OF CONTENTS
 
  + PROJECT MANAGEMENT
       
       - [Sketches](class/1pm/1pm-web.md)
       
+ + 3D PRINTING SETTINGS
+ 
+      - [1.Anycubic Photon M3 Plus](anycubic/m3plus/test.md)
+      - [2.Second](class/2cad/3d.md)
+
  + FUSION360 DESIGN
       
       - [1.First](class/2cad/cad.md)
