@@ -10,6 +10,11 @@
 |0821/1|Medium|45°|3mm|2mm|0.5mm|2mm|1.5mm|1.5mm|
 ||                | 3mm                  | 2mm                    | 0.5mm                  | 2mm               | 1.5mm                  | 1.5mm                  |                  |
 | Top model connection    | Distance in model | Length               | Tip type               | Break point height     | Break point width | Start height           | End height             |                  |
+
+
+
+
+
 | Top width               | M1 0.2mm          | M2 0.4mm             | M3 0.6mm               | M4 0.8mm               | M5 1.0mm          |                        |                        |                  |
 | Bottom model connection | Distance in model | Top width            | length                 |                        |                   |                        |                        |                  |
 | Default                 | 0.2mm             | 0.5mm                | 3mm                    |                        |                   |                        |                        |                  |
