@@ -3,20 +3,22 @@
 # TEST1
 <br>
 
-# Support parameters
+# Support parameters (default) 
 
-| Date/Cube               | Support script    | Support angle        | Anchor distance        | Border anchor distance | Border offset     | No support offset      | Lowest anchor distance | Reinforce height |
-| ----------------------- | ----------------- | -------------------- | ---------------------- | ---------------------- | ----------------- | ---------------------- | ---------------------- | ---------------- |
-|0821/1|Medium|45°|3mm|2mm|0.5mm|2mm|1.5mm|1.5mm|
-||                | 3mm                  | 2mm                    | 0.5mm                  | 2mm               | 1.5mm                  | 1.5mm                  |                  |
-| Top model connection    | Distance in model | Length               | Tip type               | Break point height     | Break point width | Start height           | End height             |                  |
+| Z Lift Hight    | Support script | Support angle    | Anchor distance     | Border anchor distance | Border offset      | No support offset | Lowest anchor distance | Reinforce height |
+| --------------- | -------------- | ---------------- | ------------------- | ---------------------- | ------------------ | ----------------- | ---------------------- | ---------------- |
+| 10mm            | Medium         | 45°              | 3mm                 | 2mm                    | 0.5mm              | 2mm               | 1.5mm                  | 1.5mm            |
+| Polygon edge N° | Max branch N°  | Branch top width | Branch bottom width | Trunk top width        | Trunk bottom width | Trunk height      | Branch max angle       |                  |
+|    6 |2|1mm|1.2mm|1.2mm|1.5mm|Branch max angle |45°    |
+
+<br>
+
+| Date/Cube       | Distance in model | Top width | Length  | Tip type                 | Break point height | Break point width | Start height | End height | Exposure time(s) |
+| --------- | ----------------- | --------- | ------- | ------------------------ | ------------------ | ----------------- | ------------ | ---------- | ---------------- |
+| 0821/V1   | 0.3mm             | 0.2mm     | 2mm     | perpendicular to surface | 0.1mm              | 0.2mm             | 0.1mm        | 0.1mm      |         5         |
+| 0821/v2   | Default           | 0.4mm     | Default |   ![](https://content.instructables.com/FCT/X4C9/JXITVILJ/FCTX4C9JXITVILJ.png?auto=webp&frame=1&fit=bounds&md=cf7c9ed307d81591ebb97d2f88012fbd)              | Default            | Default           | Default      | Default    |         Default  |
+| 0821/v3   | Default           | 0.6mm     | Default | Default                  | Default            | Default           | Default      | Default    |       Default     |
+| 0821/v4   | Default           | 0.8mm     | Default | Default                  | Default            | Default           | Default      | Default    |        Default      |
+| 0821/v5   | Default           | 1mm       | Default | Default                  | Default            | Default           | Default      | Default    |       Default       |
 
 
-
-
-
-| Top width               | M1 0.2mm          | M2 0.4mm             | M3 0.6mm               | M4 0.8mm               | M5 1.0mm          |                        |                        |                  |
-| Bottom model connection | Distance in model | Top width            | length                 |                        |                   |                        |                        |                  |
-| Default                 | 0.2mm             | 0.5mm                | 3mm                    |                        |                   |                        |                        |                  |
-| Filter supports         |                   | Short support length | Support length         | Width scale            |                   |                        |                        |                  |
-| Default                 | 1mm               | 3mm                  | 0.3                    |                        |                   |                        |                        |                  |
