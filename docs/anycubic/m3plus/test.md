@@ -17,9 +17,9 @@
 
 | Date/Cube       |  Top width |   |                  | 
 | --------- | ----------------- | --------- | ------- | 
-| 0821/V1   |  0.2mm     |      |  |        
-| 0821/v2   |          0.4mm     | |   ![](https://content.instructables.com/FCT/X4C9/JXITVILJ/FCTX4C9JXITVILJ.png?auto=webp&frame=1&fit=bounds&md=cf7c9ed307d81591ebb97d2f88012fbd)              |   
-| 0821/v3   |           0.6mm     |  |                  |         
-| 0821/v4   |          0.8mm     |  |                  |       
-| 0821/v5   |          1mm       |  |                  | 
+| 0821/V1   |  0.2mm     |  <img src="https://cdn.jsdelivr.net/gh/yannickkabasso/Profabx-images/img/M1.png" alt="drawing" width="300"/>  |![](https://cdn.jsdelivr.net/gh/yannickkabasso/Profabx-images/img/0821M1.png)  |        
+| 0821/v2   |          0.4mm     |![](https://cdn.jsdelivr.net/gh/yannickkabasso/Profabx-images/img/M2.png) |   ![](https://cdn.jsdelivr.net/gh/yannickkabasso/Profabx-images/img/0821M2.png)              |   
+| 0821/v3   |           0.6mm     |  | ![](https://cdn.jsdelivr.net/gh/yannickkabasso/Profabx-images/img/0821M3.png)                 |         
+| 0821/v4   |          0.8mm     |  | ![](https://cdn.jsdelivr.net/gh/yannickkabasso/Profabx-images/img/0821M4.png)                 |       
+| 0821/v5   |          1mm       |  | ![](https://cdn.jsdelivr.net/gh/yannickkabasso/Profabx-images/img/0821M5.png)                 | 
 
