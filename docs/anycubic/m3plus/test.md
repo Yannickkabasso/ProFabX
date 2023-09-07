@@ -15,7 +15,7 @@ The Anycubic Photon M3 Plus is part of the new M3 line by Anycubic, positioned a
 
 | Detection project                | Detection method                                                         | Rigid110              |
 |----------------------------------|--------------------------------------------------------------------------|-----------------------|
-| Colour                           |                                                                          | White/Bleu/Grey/Black |
+| Colour                           |                                                                          | White/Blue/Grey/Black |
 | Viscosity (30°C)                 |                                                                          | 402mPa.s              |
 | Density (25°C)                   |                                                                          | 1.13g/ml              |
 | Tensile strength (MPa)           | ASTM D638M                                                               | 42.7                  |
