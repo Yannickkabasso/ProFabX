@@ -4,9 +4,6 @@ The Anycubic Photon M3 Plus is part of the new M3 line by Anycubic, positioned a
 <br>
 
 [Anycubic](https://www.anycubic.com/products/photon-m3-plus)
-<br>
-
-[Review](https://3dprinterly.com/simple-anycubic-photon-m3-plus-review-worth-buying-or-not/)
 
 
 <br>
@@ -37,13 +34,16 @@ The Anycubic Photon M3 Plus is part of the new M3 line by Anycubic, positioned a
 
 # Support parameters (default) 
 
-| Z Lift Hight    | Support script | Support angle      | Anchor distance     | Border anchor distance | Border offset      | No support offset | Lowest anchor distance | Reinforce height  |
-| --------------- | -------------- | ------------------ | ------------------- | ---------------------- | ------------------ | ----------------- | ---------------------- | ----------------- |
-| 10mm            | Medium         | 45°                | 3mm                 | 2mm                    | 0.5mm              | 2mm               | 1.5mm                  | 1.5mm             |
-| Polygon edge N° | Max branch N°  | Branch top width   | Branch bottom width | Trunk top width        | Trunk bottom width | Trunk height      | Branch max angle       | Distance in model |
-| 6               | 2              | 1mm                | 1.2mm               | 1.2mm                  | 1.5mm              | Branch max angle  | 45°                    | 0.3mm             |
-| Length          | Tip type       | Break point height | Break point width   | Start height           | End height         | Exposure time(s)  |Max branch number|Branch max angle  |
-|2mm|perpendicular to surface|0.1mm|0.2mm|0.1mm|0.1mm|5  |   4                 |45° 
+| Z Lift Hight    | Support script           | Support angle      | Anchor distance     | Border anchor distance | Border offset      | No support offset | Lowest anchor distance | Reinforce height  |
+| --------------- | ------------------------ | ------------------ | ------------------- | ---------------------- | ------------------ | ----------------- | ---------------------- | ----------------- |
+| 10mm            | Medium                   | 45°                | 3mm                 | 2mm                    | 0.5mm              | 2mm               | 1.5mm                  | 1.5mm             |
+| Polygon edge N° | Max branch N°            | Branch top width   | Branch bottom width | Trunk top width        | Trunk bottom width | Trunk height      | Branch max angle       | Distance in model |
+| 6               | 2                        | 1mm                | 1.2mm               | 1.2mm                  | 1.5mm              | Branch max angle  | 45°                    | 0.3mm             |
+| Length          | Tip type                 | Break point height | Break point width   | Start height           | End height         | Exposure time(s)  | Max branch number      | Branch max angle  |
+| 2mm             | perpendicular to surface | 0.1mm              | 0.2mm               | 0.1mm                  | 0.1mm              | 5                 | 4                      | 45°               |
+| Ball contact    | Break point              | Plate offset       | Plate heigth        | Slot angle             | Plate Type         | Hole radius       | Hole interval          | Hole edge number  |
+|       _         | _                        | 2mm                | 0.8mm               | 60°                    | Convex hull        | 1mm               | 3mm                    | 12                |
+
 
 <br>
 
@@ -59,3 +59,25 @@ The top width of supports in the realm of 3D printing is defined as the width (D
 | 0821/v4   |          0.8mm     |<img src="https://cdn.jsdelivr.net/gh/yannickkabasso/Profabx-images/img/0821M4.png" alt="drawing" width="300"/>  |<img src="https://cdn.jsdelivr.net/gh/yannickkabasso/Profabx-images/img/M4.jpg" alt="drawing" width="300"/>                  |Upon modifying the top width of the support structures to 0.8mm, a marginal improvement is discernible on the bottom surface. However, it remains bent, failing to achieve the desired flatness. Furthermore, despite this alteration, the supports continue to exhibit a lack of proper connection with the intended model (Cube)       
 | 0821/v5   |          1mm       |<img src="https://cdn.jsdelivr.net/gh/yannickkabasso/Profabx-images/img/0821M5.png" alt="drawing" width="300"/>  |<img src="https://cdn.jsdelivr.net/gh/yannickkabasso/Profabx-images/img/M5.jpg" alt="drawing" width="300"/>               |Best result:<br>Upon modifying the top width of the support structures to 1mm, it becomes evident that a marginal improvement is discernible on the bottom surface close to a flat surface. However, it remains a little bent, failing to achieve the desired flatness. Furthermore, despite this alteration, some of the supports continue to exhibit a lack of proper connection with the intended surface of the cube, deviating from the anticipated outcome. Consequently, additional adjustments or alternative strategies may be required to rectify these persistent issues and attain the desired printing results. 
 
+<br>
+
+# TEST2: Distance in model
+The distance within the model, often referred to as the insertion length (D), signifies the exact length of the support bar that penetrates the lower surface of the model during the 3D printing process. This dimension holds significant importance as it directly influences the stability and structural integrity of the printed object. By carefully adjusting the insertion length, we can effectively control the level of support provided to the model, ensuring that overhangs and unsupported sections are adequately reinforced.
+
+Achieving the optimal insertion length requires a thoughtful approach, taking into account various factors such as the complexity of the model, the material being used, and the desired printing outcome. Striking the right balance between support effectiveness and the ease of post-printing removal is crucial. It is worth noting that a thorough understanding of the specific printer and slicer software being utilized is essential, as these tools often offer customizable settings to fine-tune the insertion length.
+
+By meticulously considering the relationship between the insertion length and the model's geometry, we can enhance the overall print quality and minimize the risk of structural flaws. This meticulous attention to detail ensures that the support structures effectively stabilize the model during printing, resulting in accurate and visually appealing 3D prints.
+<br>
+Using the default support parameters, with a default Top Width of 0.8mm.
+
+| Date/Cube |  Distance in model |Anycubic photon workshop   | Printed model | Remark | 
+| --------- | ---------- | ------------------------- | ------------- | -------|
+| 0823/V1   |  0.4mm     |  <img src="https://cdn.jsdelivr.net/gh/yannickkabasso/Profabx-images/img/model1.jpg" alt="drawing" width="300"/>  |<img src="https://cdn.jsdelivr.net/gh/yannickkabasso/Profabx-images/img/1.jpg" alt="drawing" width="300"/>|When employing the default parameters as mentioned earlier, specifically a top width of 0.2mm for support structures, it becomes evident that the bottom surface exhibits a noticeable bend, and the supports do not establish the intended connection with the model (Cube) as anticipated. This issue arises from the observed disparity between the printed results and the desired outcome.|          
+| 0823/v2   |          0.6mm     |<img src="https://cdn.jsdelivr.net/gh/yannickkabasso/Profabx-images/img/model2.jpg" alt="drawing" width="300"/> | <img src="https://cdn.jsdelivr.net/gh/yannickkabasso/Profabx-images/img/2.jpg" alt="drawing" width="300"/>   |Upon modifying the top width of the support structures to 0.4mm, a marginal improvement is discernible on the bottom surface. However, it remains bent, failing to achieve the desired flatness. Furthermore, despite this alteration, the supports continue to exhibit a lack of proper connection with the intended model (Cube)   
+| 0823/v3   |           0.7mm     |<img src="https://cdn.jsdelivr.net/gh/yannickkabasso/Profabx-images/img/M3.png" alt="drawing" width="300"/>  |<img src="https://cdn.jsdelivr.net/gh/yannickkabasso/Profabx-images/img/3.jpg" alt="drawing" width="300"/>                 |Upon modifying the top width of the support structures to 0.6mm, a marginal improvement is discernible on the bottom surface. However, it remains bent, failing to achieve the desired flatness. Furthermore, despite this alteration, the supports continue to exhibit a lack of proper connection with the intended model (Cube)         
+| 0823/v4   |          0.8mm     |<img src="https://cdn.jsdelivr.net/gh/yannickkabasso/Profabx-images/img/M4.png" alt="drawing" width="300"/>  |<img src="https://cdn.jsdelivr.net/gh/yannickkabasso/Profabx-images/img/4.jpg" alt="drawing" width="300"/>                  |Best result:<br>Upon modifying the top width of the support structures to 0.8mm, a marginal improvement is discernible on the bottom surface. However, it remains bent, failing to achieve the desired flatness. Furthermore, despite this alteration, the supports continue to exhibit a lack of proper connection with the intended model (Cube)       
+| 0823/v5   |          1mm       |<img src="https://cdn.jsdelivr.net/gh/yannickkabasso/Profabx-images/img/M5.png" alt="drawing" width="300"/>  |<img src="https://cdn.jsdelivr.net/gh/yannickkabasso/Profabx-images/img/5.jpg" alt="drawing" width="300"/>               |Upon modifying the top width of the support structures to 1mm, it becomes evident that a marginal improvement is discernible on the bottom surface close to a flat surface. However, it remains a little bent, failing to achieve the desired flatness. Furthermore, despite this alteration, some of the supports continue to exhibit a lack of proper connection with the intended surface of the cube, deviating from the anticipated outcome. Consequently, additional adjustments or alternative strategies may be required to rectify these persistent issues and attain the desired printing results. 
+
+<br>
+
+# TEST2: Distance in model
